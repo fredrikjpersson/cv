@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=EB+Garamond&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: blanchedalmond;
+    background-image: linear-gradient(azure, aqua, azure);
+    height: auto;
+}
+h1 {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'EB Garamond', serif;
+    font-size: 75px;
+}
+#navBar{
+    position: fixed;
+    /* text-align: center; */
+    padding-left: 5px;
+    background-color: transparent;
+    border-bottom-right-radius: 50px;
+    height: 20px;
+    width: 60px;
+}
+
+#cvName {
+    margin-top: 12%;
+}
+
+#top-container {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+#top-cloud{
+    margin-top: 5%;
+    margin-bottom: -8%;
+    margin-left: -36%;
+}
+#mid-cloud{
+    margin-left: 37%;
+    margin-top: 5%;
+    margin-bottom: -7%;
+}
+
+#city-image {
+    display: flex;
+    height: 40%;
+    margin-top: 9%;
+    background-image: url("/cv/images/hongkong.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#middle-container{
+    height: 100vh;
+}
+#bottom-container{
+    height: 100vh;
 }
