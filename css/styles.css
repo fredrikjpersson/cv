@@ -10,11 +10,12 @@
 body {
     background-image: linear-gradient(azure, aqua, azure);
     height: auto;
+    text-align: center;
 }
 h1 {
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'EB Garamond', serif;
-    font-size: 75px;
+    font-size: 562%;
 }
 #navBar{
     position: fixed;
@@ -28,6 +29,7 @@ h1 {
 
 #cvName {
     margin-top: 12%;
+    margin-bottom: 1%;
 }
 
 #top-container {
@@ -54,9 +56,16 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
-#middle-container{
-    height: 100vh;
+.middle-container{
+  padding: 2%;
 }
-#bottom-container{
-    height: 100vh;
+.skill-row{
+    margin: 5%;
+}
+.sektion{
+    margin-top: 5%;
+}
+.bottom-container{
+  
+
 }
