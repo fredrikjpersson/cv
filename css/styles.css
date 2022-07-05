@@ -25,15 +25,18 @@ h1 {
 h2 {
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3, a {
     color: #11999E;
 }
+p{
+    line-height: 2;
+
+}
 hr{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    max-width: 100px;
+    margin: 100px auto;
+    max-width: 4%;
     border: none;
     border-top: dotted 10px  grey;
 }
@@ -45,6 +48,8 @@ hr{
     border-bottom-right-radius: 50px;
     height: 20px;
     width: 60px;
+    top: 0px;
+    left: 0px;
 }
 
 #cvName {
@@ -54,18 +59,24 @@ hr{
 
 #top-container {
     height: 100vh;
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 #top-cloud{
-    margin-top: 5%;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    /* margin-top: 5%;
     margin-bottom: -6%;
-    margin-left: -43%;
+    margin-left: -43%; */
 }
 #mid-cloud{
-    margin-left: 37%;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    /* margin-left: 37%;
     margin-top: 5%;
-    margin-bottom: -7%;
+    margin-bottom: -7%; */
 }
 
 #city-image {
@@ -77,13 +88,16 @@ hr{
     background-position: center;
 }
 .middle-container{
-  padding: 2%;
+  padding: 10px 0px 100px 0px;
 }
 .skill-row{
-    margin: 100px auto 100px auto;
+    margin: 200px auto 200px auto;
     text-align: left;
-    line-height: 2;
     width: 50%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
 }
 .skillOneImg{
     width: 25%;
@@ -104,7 +118,10 @@ hr{
 .bottom-container{
   background-color: #66bfbf;
   line-height: 2;
-
+}
+.contact-text{
+    width: 40%;
+    margin: auto;
 }
 .btn {
     background: #3498db;
